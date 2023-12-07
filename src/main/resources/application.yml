@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: example
+  profiles:
+    active: dev
+server:
+  port: 8080
+logging:
+  level:
+    ROOT: DEBUG
+
+

@@ -1,0 +1,11 @@
+api:
+  baseUrl: https://api.lob.com/v1/
+  autocompletion:
+    path: us_autocompletions
+    api-key: live_pub_a15953d6b86c7028cbf7605ed360eee
+logging:
+  level:
+    ROOT: INFO
+feign:
+  logging:
+    level: FULL
